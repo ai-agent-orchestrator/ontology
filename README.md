@@ -467,6 +467,7 @@ LangSmith trace and evaluation
 
 - [Legal Ontology Brainstorming](docs/LEGAL_ONTOLOGY_BRAINSTORMING.md)
 - [Legal Intake Readiness Draft](docs/LEGAL_INTAKE_READINESS_DRAFT.md)
+- [Legal Procedure Knowledge Graph Draft](docs/LEGAL_PROCEDURE_KNOWLEDGE_GRAPH_DRAFT.md)
 - [현실 문제 해결 온톨로지](docs/PROBLEM_SOLVING_ONTOLOGY.md)
 - [Problem-Solving Ontology English Version](docs/PROBLEM_SOLVING_ONTOLOGY_EN.md)
 
