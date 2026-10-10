@@ -1,87 +1,5 @@
 # Ontology Feedback
 
-## Ontology Applied Result
-
-The most important point of this repository is not that it talks about ontology.
-It shows how ontology is applied to a real intake product structure.
-
-```text
-The client selects inside an ontology structure.
-The chatbot organizes the selected values into a clear case summary.
-The lawyer receives structured intake information before consultation.
-The LLM handles shorter, cleaner, and safer inputs.
-```
-
-Conclusion:
-
-```text
-Selective intake + mini legal ontology
-= lower cost for the client
-+ lower time cost for the lawyer
-+ lower token and reasoning cost for the LLM system
-```
-
-### Six-Layer Approach
-
-1. Market
-   -> Small law offices often lack structured intake, causing consultation conversion loss.
-
-2. Client UX
-   -> Clients often do not know legal terminology, so selective input is more practical than long free-text explanation.
-
-3. Lawyer Workflow
-   -> Lawyers can work more efficiently when case type, available documents, party position, and desired help are structured before consultation.
-
-4. Technical Structure
-   -> Legal Intake Form + mini legal ontology standardizes input and simplifies backend processing.
-
-5. AI Security
-   -> Fixed Guard, Dynamic Guard, Cost Control, and Privacy Output Guard control risk and cost.
-
-6. Operation / Observability
-   -> reasonCode, Prometheus metrics, and dashboards make intake flow and security blocks observable.
-
-## 온톨로지 적용 결과
-
-이 저장소에서 가장 중요한 점은 온톨로지를 말로만 설명하는 것이 아닙니다.
-온톨로지를 실제 legal intake 제품 구조에 어떻게 적용했는지 보여주는 것입니다.
-
-```text
-고객은 온톨로지 구조 안에서 선택한다.
-챗봇은 선택값을 사건 요약으로 정리한다.
-변호사는 상담 전에 구조화된 사건 정보를 본다.
-LLM은 더 짧고, 더 정리되고, 더 안전한 입력을 처리한다.
-```
-
-결론:
-
-```text
-선택형 intake + 미니 법률 온톨로지
-= 고객의 입력 비용 절감
-+ 변호사의 상담 준비 시간 절감
-+ LLM 시스템의 토큰 비용과 추론 비용 절감
-```
-
-### 6가지 접근
-
-1. Market
-   -> 소규모 법률 사무소의 intake 부재와 상담 전환 손실
-
-2. Client UX
-   -> 고객은 법률 용어를 모르기 때문에 주관식 설명보다 선택형 입력이 필요
-
-3. Lawyer Workflow
-   -> 변호사는 상담 전 사건 유형, 보유 자료, 원하는 도움을 구조화해서 봐야 상담 효율이 올라감
-
-4. Technical Structure
-   -> Legal Intake Form + 미니 법률 온톨로지로 입력을 정형화하고 시스템 처리를 단순화
-
-5. AI Security
-   -> Fixed Guard, Dynamic Guard, Cost Control, Privacy Output Guard로 위험과 비용을 통제
-
-6. Operation / Observability
-   -> reasonCode, Prometheus metric, dashboard로 문의 흐름과 보안 차단을 관찰
-
 ## Core Positioning
 
 ```text
@@ -98,38 +16,6 @@ Medical background
 + Ontology-driven thinking
 + AI-native PM / backend orchestration
 = Legal/Medical AI Technical PM
-```
-
-## Repository Role
-
-`ontology-feedback` is not just an idea archive.
-It is a PM feedback repository for turning messy market observations into structured ontology hypotheses, testing them through API experiments, and improving portfolio output through feedback loops.
-
-```text
-market observation
--> ontology hypothesis
--> Postman experiment
--> feedback
--> structure revision
--> portfolio improvement
-```
-
-In this legal intake case, the repository records how a broad market observation became a concrete AI product structure.
-
-```text
-phone-first legal intake problem
--> selective Legal Intake Form
--> mini legal ontology
--> security-aware AI intake architecture
--> Postman evidence
--> portfolio refinement
-```
-
-Korean version:
-
-```text
-ontology-feedback
-= 문제 관찰과 구조화 가설을 실험 결과로 다듬는 PM feedback repo
 ```
 
 ## Detailed Multi-Layer PM Analysis
@@ -177,52 +63,63 @@ Operators should be able to see where intake drops off, which requests are block
 
 The system is designed so that block reasons and conversion loss can be checked through reasonCode, metrics, and dashboards.
 
-## PM 관점 다층 분석
+## Ontology Applied Architecture Saves Cost And Time
 
-이 프로젝트는 단순히 법률 챗봇을 구현하는 것이 아니라,
-법률 intake 문제를 시장, 의뢰인, 변호사, 기술, 보안, 운영 관점에서 나누어 분석한 뒤 설계했습니다.
+The client selects inside an ontology structure.
+The chatbot organizes the selected values into a clear case summary.
+The lawyer receives structured intake information before consultation.
+The LLM handles shorter, cleaner, and safer inputs.
 
-### 1. 시장 관점
+```text
+Selective Legal Intake Form
+-> mini legal ontology
+-> structured case summary
+-> safer and cheaper AI processing
+```
 
-소규모 법률 사무소의 초기 응대는 전화 중심, 주관식 설명 중심, 담당자 역량 의존적인 경우가 많습니다.
-고객 문의가 사건 정보로 구조화되지 못하면 상담 전환 손실이 발생할 수 있습니다.
+This is the core value of the architecture.
+The ontology is not presented as an abstract concept.
+It is applied as a product structure that reduces cost for the client, the lawyer, and the LLM system.
 
-### 2. 의뢰인 관점
+```text
+Client
+-> less confusion and lower input burden
 
-법률 문제를 처음 겪는 고객은 자신의 사건이 민사인지, 형사인지, 가사인지조차 알기 어렵습니다.
-따라서 처음부터 긴 주관식 설명을 요구하기보다, 선택형 입력과 준비자료 안내가 필요합니다.
+Lawyer
+-> less repeated basic questioning and faster case understanding
 
-### 3. 변호사 관점
+LLM system
+-> shorter input, clearer context, lower token cost, safer guardrail processing
+```
 
-정리되지 않은 상담은 변호사의 시간을 사실관계 청취와 기본 확인에 소모시킵니다.
-의뢰인이 최소한의 자료와 사건 흐름을 준비하지 못한 상태에서 상담이 시작되면,
-고객과 변호사 모두 상담 품질에 만족하기 어려운 구조가 됩니다.
+## 온톨로지 적용 아키텍처는 비용과 시간을 줄인다
 
-상담 전 사건 유형, 보유 자료, 원하는 도움을 구조화하면
-변호사는 상담 시간을 자료 분류가 아니라 쟁점 파악과 전략 검토에 사용할 수 있습니다.
+고객은 온톨로지 구조 안에서 선택합니다.
+챗봇은 선택값을 사건 요약으로 정리합니다.
+변호사는 상담 전에 구조화된 사건 정보를 확인합니다.
+LLM은 더 짧고, 더 정리되고, 더 안전한 입력을 처리합니다.
 
-### 4. 기술 관점
+```text
+선택형 Legal Intake Form
+-> 미니 법률 온톨로지
+-> 구조화된 사건 요약
+-> 더 안전하고 저렴한 AI 처리
+```
 
-자유 대화형 챗봇보다 `Legal Intake Form` 기반 정보 제공형 챗봇이 MVP에 적합하다고 판단했습니다.
-선택형 입력과 체크리스트를 사용하면 입력 구조화, DTO Validation, reasonCode, metric 설계가 쉬워집니다.
+이것이 이 아키텍처의 핵심 가치입니다.
+온톨로지를 추상적인 개념으로 설명하는 것이 아니라,
+고객, 변호사, LLM 시스템 모두의 비용을 줄이는 제품 구조로 적용합니다.
 
-### 5. 보안 관점
+```text
+고객
+-> 덜 헤매고, 입력 부담이 줄어든다.
 
-AI 서비스는 LLM 호출 전에 위험 요청, 반복 공격, 비용 폭주, 개인정보 재출력을 통제해야 합니다.
-이를 위해 보안 계층을 다음과 같이 분리했습니다.
+변호사
+-> 반복적인 기본 질문이 줄고, 사건 파악이 빨라진다.
 
-- Fixed Guard: 단일 위험 요청 차단
-- Dynamic Guard: 반복 위험 행동 감지
-- Cost Control: 토큰 비용 폭주 방지
-- Privacy Output Guard: 개인정보 출력 마스킹
-
-### 6. 운영 관점
-
-AI 서비스는 운영 중 관찰 가능해야 합니다.
-초기 문의가 어디서 끊기는지, 어떤 요청이 차단되는지, 비용 차단이 얼마나 발생하는지
-Prometheus/Grafana metric으로 볼 수 있어야 합니다.
-
-따라서 차단 이유와 전환 손실을 reasonCode, metric, dashboard로 확인할 수 있도록 설계했습니다.
+LLM 시스템
+-> 입력이 짧아지고, 맥락이 명확해지고, 토큰 비용이 줄고, guardrail 처리가 쉬워진다.
+```
 
 ## Legal Intake Case
 
