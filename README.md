@@ -1,55 +1,5 @@
 # Ontology Feedback
 
-## Core Positioning
-
-```text
-Domain-driven AI Technical PM
-for healthcare, legal, cybersecurity, and AI governance
-```
-
-I combine healthcare and legal domain experience with hands-on AI backend practice.
-My focus is building safe, observable, and compliant AI systems for high-stakes domains.
-
-```diff
-Medical background
-+ Legal dispute structuring experience
-+ Ontology-driven thinking
-+ AI-native PM / backend orchestration
-= Legal/Medical AI Technical PM
-```
-
-## Repository Role
-
-`ontology-feedback` is not just an idea archive.
-It is a PM feedback repository for turning messy market observations into structured ontology hypotheses, testing them through API experiments, and improving portfolio output through feedback loops.
-
-```text
-market observation
--> ontology hypothesis
--> Postman experiment
--> feedback
--> structure revision
--> portfolio improvement
-```
-
-In this legal intake case, the repository records how a broad market observation became a concrete AI product structure.
-
-```text
-phone-first legal intake problem
--> selective Legal Intake Form
--> mini legal ontology
--> security-aware AI intake architecture
--> Postman evidence
--> portfolio refinement
-```
-
-Korean version:
-
-```text
-ontology-feedback
-= 문제 관찰과 구조화 가설을 실험 결과로 다듬는 PM feedback repo
-```
-
 ## Ontology Applied Result
 
 The most important point of this repository is not that it talks about ontology.
@@ -131,6 +81,56 @@ LLM은 더 짧고, 더 정리되고, 더 안전한 입력을 처리한다.
 
 6. Operation / Observability
    -> reasonCode, Prometheus metric, dashboard로 문의 흐름과 보안 차단을 관찰
+
+## Core Positioning
+
+```text
+Domain-driven AI Technical PM
+for healthcare, legal, cybersecurity, and AI governance
+```
+
+I combine healthcare and legal domain experience with hands-on AI backend practice.
+My focus is building safe, observable, and compliant AI systems for high-stakes domains.
+
+```diff
+Medical background
++ Legal dispute structuring experience
++ Ontology-driven thinking
++ AI-native PM / backend orchestration
+= Legal/Medical AI Technical PM
+```
+
+## Repository Role
+
+`ontology-feedback` is not just an idea archive.
+It is a PM feedback repository for turning messy market observations into structured ontology hypotheses, testing them through API experiments, and improving portfolio output through feedback loops.
+
+```text
+market observation
+-> ontology hypothesis
+-> Postman experiment
+-> feedback
+-> structure revision
+-> portfolio improvement
+```
+
+In this legal intake case, the repository records how a broad market observation became a concrete AI product structure.
+
+```text
+phone-first legal intake problem
+-> selective Legal Intake Form
+-> mini legal ontology
+-> security-aware AI intake architecture
+-> Postman evidence
+-> portfolio refinement
+```
+
+Korean version:
+
+```text
+ontology-feedback
+= 문제 관찰과 구조화 가설을 실험 결과로 다듬는 PM feedback repo
+```
 
 ## Detailed Multi-Layer PM Analysis
 
