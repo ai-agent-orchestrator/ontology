@@ -1,6 +1,4 @@
-# Ontology
-
-## Core Positioning
+# Who Am I
 
 ```text
 Domain-driven AI Technical PM
@@ -17,6 +15,71 @@ Medical background
 + AI-native PM / backend orchestration
 = Legal/Medical AI Technical PM
 ```
+
+## Ontology Applied Architecture Saves Cost And Time
+
+The client selects inside an ontology structure.
+The chatbot organizes the selected values into a clear case summary.
+The lawyer receives structured intake information before consultation.
+The LLM handles shorter, cleaner, and safer inputs.
+
+```text
+Selective Legal Intake Form
+-> mini legal ontology
+-> structured case summary
+-> safer and cheaper AI processing
+```
+
+This is the core value of the architecture.
+The ontology is not presented as an abstract concept.
+It is applied as a product structure that reduces cost for the client, the lawyer, and the LLM system.
+
+```text
+Client
+-> less confusion and lower input burden
+
+Lawyer
+-> less repeated basic questioning and faster case understanding
+
+LLM system
+-> shorter input, clearer context, lower token cost, safer guardrail processing
+```
+
+Through hands-on experience and this development project, I designed an ontology structure that satisfies multi-dimensional market needs:
+client usability, lawyer workflow efficiency, AI security, observability, and cost control.
+
+## 온톨로지 적용 아키텍처는 비용과 시간을 줄인다
+
+고객은 온톨로지 구조 안에서 선택합니다.
+챗봇은 선택값을 사건 요약으로 정리합니다.
+변호사는 상담 전에 구조화된 사건 정보를 확인합니다.
+LLM은 더 짧고, 더 정리되고, 더 안전한 입력을 처리합니다.
+
+```text
+선택형 Legal Intake Form
+-> 미니 법률 온톨로지
+-> 구조화된 사건 요약
+-> 더 안전하고 저렴한 AI 처리
+```
+
+이것이 이 아키텍처의 핵심 가치입니다.
+온톨로지를 추상적인 개념으로 설명하는 것이 아니라,
+고객, 변호사, LLM 시스템 모두의 비용을 줄이는 제품 구조로 적용합니다.
+
+```text
+고객
+-> 덜 헤매고, 입력 부담이 줄어든다.
+
+변호사
+-> 반복적인 기본 질문이 줄고, 사건 파악이 빨라진다.
+
+LLM 시스템
+-> 입력이 짧아지고, 맥락이 명확해지고, 토큰 비용이 줄고, guardrail 처리가 쉬워진다.
+```
+
+직접 겪고 분석한 문제의식과 이번 개발 과정을 통해,
+고객 사용성, 변호사 업무 효율, AI 보안, 관측 가능성, 비용 통제를 함께 만족시키는
+다면적 시장 요구 기반 온톨로지 구조를 설계했습니다.
 
 ## Detailed Multi-Layer PM Analysis
 
@@ -62,64 +125,6 @@ AI services must be observable in operation.
 Operators should be able to see where intake drops off, which requests are blocked, and how often cost blocks occur through Prometheus/Grafana metrics.
 
 The system is designed so that block reasons and conversion loss can be checked through reasonCode, metrics, and dashboards.
-
-## Ontology Applied Architecture Saves Cost And Time
-
-The client selects inside an ontology structure.
-The chatbot organizes the selected values into a clear case summary.
-The lawyer receives structured intake information before consultation.
-The LLM handles shorter, cleaner, and safer inputs.
-
-```text
-Selective Legal Intake Form
--> mini legal ontology
--> structured case summary
--> safer and cheaper AI processing
-```
-
-This is the core value of the architecture.
-The ontology is not presented as an abstract concept.
-It is applied as a product structure that reduces cost for the client, the lawyer, and the LLM system.
-
-```text
-Client
--> less confusion and lower input burden
-
-Lawyer
--> less repeated basic questioning and faster case understanding
-
-LLM system
--> shorter input, clearer context, lower token cost, safer guardrail processing
-```
-
-## 온톨로지 적용 아키텍처는 비용과 시간을 줄인다
-
-고객은 온톨로지 구조 안에서 선택합니다.
-챗봇은 선택값을 사건 요약으로 정리합니다.
-변호사는 상담 전에 구조화된 사건 정보를 확인합니다.
-LLM은 더 짧고, 더 정리되고, 더 안전한 입력을 처리합니다.
-
-```text
-선택형 Legal Intake Form
--> 미니 법률 온톨로지
--> 구조화된 사건 요약
--> 더 안전하고 저렴한 AI 처리
-```
-
-이것이 이 아키텍처의 핵심 가치입니다.
-온톨로지를 추상적인 개념으로 설명하는 것이 아니라,
-고객, 변호사, LLM 시스템 모두의 비용을 줄이는 제품 구조로 적용합니다.
-
-```text
-고객
--> 덜 헤매고, 입력 부담이 줄어든다.
-
-변호사
--> 반복적인 기본 질문이 줄고, 사건 파악이 빨라진다.
-
-LLM 시스템
--> 입력이 짧아지고, 맥락이 명확해지고, 토큰 비용이 줄고, guardrail 처리가 쉬워진다.
-```
 
 ## Legal Intake Case
 
