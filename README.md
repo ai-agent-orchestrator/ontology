@@ -123,6 +123,222 @@ LLM 시스템
 
 ## Legal Intake Case
 
+The core of this legal intake case is not to replace legal consultation with a chatbot.
+It is to design a `Selective Legal Intake` flow that turns the client's unstructured explanation into a structured case format before consultation.
+
+Core sentence:
+
+```text
+The client selects, and the chatbot organizes.
+```
+
+## Problem
+
+Clients who face legal problems for the first time often do not know whether their case is civil, criminal, family-related, or electronic-litigation-related.
+However, many law offices still require clients to explain their problem from the beginning in long free-form speech over the phone.
+
+This creates the following problems.
+
+```text
+The client does not know legal terminology.
+Phone conversations disappear the moment they end.
+Dates, amounts, counterparties, and available documents are easily missed.
+Case information is not structured at the intake desk stage.
+The lawyer must spend consultation time checking basic facts again.
+The client may feel that even a paid consultation only covered basic questions.
+```
+
+As a result, early inquiries may fail to convert into actual consultations.
+
+## Solution
+
+This problem is structured through a `Selective Legal Intake Form` and a `mini legal ontology`.
+
+Instead of writing a long free-form explanation, the client selects information like using a kiosk.
+
+```text
+Inquiry purpose
+Case type
+Party position
+Core facts
+Available documents
+Desired next step
+```
+
+The chatbot organizes the selected values into a natural-language guide.
+
+```text
+This inquiry appears to be close to a civil case.
+
+There may be a money return or loan dispute.
+Before consultation, please organize bank transfer records,
+KakaoTalk/text messages, and records showing that you requested repayment
+in chronological order.
+
+If you have a contract or written agreement, please prepare it as well.
+Personal information entered by the user is not displayed as-is and is masked in the response.
+```
+
+## Minimal Legal Intake Form
+
+### 1. Inquiry Purpose
+
+- Procedure guidance
+- Required document check
+- Drafted document review
+- Lawyer engagement or contract review
+- Electronic litigation filing guidance
+
+### 2. Case Type
+
+- Civil
+- Criminal
+- Family
+- Electronic litigation
+- Not sure
+
+### 3. Party Position
+
+- Victim
+- Accused person
+- Plaintiff
+- Defendant
+- Applicant
+- Counterparty
+- Not sure
+
+### 4. Core Facts
+
+- Incident date
+- Counterparty
+- Disputed amount or damage scale
+- Current stage
+- One-sentence summary of the core issue
+
+### 5. Available Documents
+
+- Contract
+- Bank transfer records
+- KakaoTalk/text messages
+- Photos/videos
+- Complaint/petition/notice
+- None
+
+### 6. Desired Next Step
+
+- Consultation
+- Document review
+- Litigation preparation
+- Electronic litigation filing
+- Lawyer engagement
+
+## Mini Legal Ontology
+
+In this case, ontology is not a complex legal knowledge graph.
+It is a minimal classification structure that connects the client's selected values and keywords to case type, dispute area, required documents, and next organization direction.
+
+```text
+Client input
+-> selected values
+-> case type
+-> dispute area
+-> required documents
+-> next organization direction
+```
+
+Examples:
+
+```text
+Civil
+-> loan / contract / lease / damages
+
+Criminal
+-> fraud / assault / complaint / accused person
+
+Family
+-> divorce / child support / inheritance / parental rights
+
+Electronic litigation
+-> complaint / answer / correction order / service of documents
+```
+
+## Product Value
+
+### Customer Value
+
+Clients can organize their problem through selective input even if they do not know legal terminology.
+
+- They can understand whether their issue is closer to civil, criminal, family, or electronic litigation.
+- They can know what documents to prepare before consultation.
+- They feel less anxious before calling or visiting a law office.
+- They feel that the office has a structured intake process.
+- They can better understand why a paid consultation may be necessary.
+
+### Lawyer Value
+
+Lawyers can review client inquiries in a structured format before consultation.
+
+- They can understand the likely case direction faster.
+- The client's document preparation quality improves.
+- Repeated basic questions are reduced.
+- Consultation conversion can improve.
+- Initial inquiry flow can be managed even when the lawyer is not always in the office.
+- It can work as a low-cost, high-efficiency marketing tool that turns ad-driven inquiries into consultation-ready cases.
+
+### System Value
+
+The system can reduce long free-form input and unnecessary LLM calls.
+
+- Selective input reduces free-text length.
+- Case-type templates can be used for responses.
+- DTO validation and reasonCode design become easier.
+- Cost Control becomes easier to apply.
+- Privacy masking, security guardrails, and metric collection can be attached more reliably.
+
+## Cost Reduction Thesis
+
+Selective intake and mini legal ontology reduce cost for the client, the lawyer, and the system.
+
+```text
+The client wanders less.
+The lawyer asks fewer repeated basic questions.
+The system calls the LLM less.
+```
+
+In summary:
+
+```text
+Selective intake improves customer experience.
+Mini legal ontology turns selected values into case structure.
+Together, they reduce time, money, and energy cost for the client, the lawyer, and the system.
+```
+
+## Security-Aware Extension
+
+This Legal Intake structure can be combined with an AI security architecture.
+
+```text
+Fixed Guard
+-> blocks risky requests
+
+Dynamic Guard
+-> blocks repeated risky behavior
+
+Cost Control
+-> blocks long input and token cost explosion
+
+Privacy Output Guard
+-> allows personal information input but masks personal information in output
+
+Prometheus / Grafana
+-> observes inquiry flow, security blocks, and cost blocks
+```
+
+In other words, this case is not just a chatbot idea.
+It is an AI Technical PM design case that connects domain ontology, customer experience, security architecture, and operational metrics.
+
+## Legal Intake Case Korean Version
+
 이번 legal intake case의 핵심은 법률 상담을 대체하는 챗봇이 아닙니다.
 법률 상담 전 단계에서 고객의 비정형 설명을 사건 구조로 바꾸는 `선택형 Legal Intake` 설계입니다.
 
