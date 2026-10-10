@@ -50,7 +50,89 @@ ontology-feedback
 = 문제 관찰과 구조화 가설을 실험 결과로 다듬는 PM feedback repo
 ```
 
-## Multi-Layer PM Analysis
+## Ontology Applied Result
+
+The most important point of this repository is not that it talks about ontology.
+It shows how ontology is applied to a real intake product structure.
+
+```text
+The client selects inside an ontology structure.
+The chatbot organizes the selected values into a clear case summary.
+The lawyer receives structured intake information before consultation.
+The LLM handles shorter, cleaner, and safer inputs.
+```
+
+Conclusion:
+
+```text
+Selective intake + mini legal ontology
+= lower cost for the client
++ lower time cost for the lawyer
++ lower token and reasoning cost for the LLM system
+```
+
+### Six-Layer Approach
+
+1. Market
+   -> Small law offices often lack structured intake, causing consultation conversion loss.
+
+2. Client UX
+   -> Clients often do not know legal terminology, so selective input is more practical than long free-text explanation.
+
+3. Lawyer Workflow
+   -> Lawyers can work more efficiently when case type, available documents, party position, and desired help are structured before consultation.
+
+4. Technical Structure
+   -> Legal Intake Form + mini legal ontology standardizes input and simplifies backend processing.
+
+5. AI Security
+   -> Fixed Guard, Dynamic Guard, Cost Control, and Privacy Output Guard control risk and cost.
+
+6. Operation / Observability
+   -> reasonCode, Prometheus metrics, and dashboards make intake flow and security blocks observable.
+
+## 온톨로지 적용 결과
+
+이 저장소에서 가장 중요한 점은 온톨로지를 말로만 설명하는 것이 아닙니다.
+온톨로지를 실제 legal intake 제품 구조에 어떻게 적용했는지 보여주는 것입니다.
+
+```text
+고객은 온톨로지 구조 안에서 선택한다.
+챗봇은 선택값을 사건 요약으로 정리한다.
+변호사는 상담 전에 구조화된 사건 정보를 본다.
+LLM은 더 짧고, 더 정리되고, 더 안전한 입력을 처리한다.
+```
+
+결론:
+
+```text
+선택형 intake + 미니 법률 온톨로지
+= 고객의 입력 비용 절감
++ 변호사의 상담 준비 시간 절감
++ LLM 시스템의 토큰 비용과 추론 비용 절감
+```
+
+### 6가지 접근
+
+1. Market
+   -> 소규모 법률 사무소의 intake 부재와 상담 전환 손실
+
+2. Client UX
+   -> 고객은 법률 용어를 모르기 때문에 주관식 설명보다 선택형 입력이 필요
+
+3. Lawyer Workflow
+   -> 변호사는 상담 전 사건 유형, 보유 자료, 원하는 도움을 구조화해서 봐야 상담 효율이 올라감
+
+4. Technical Structure
+   -> Legal Intake Form + 미니 법률 온톨로지로 입력을 정형화하고 시스템 처리를 단순화
+
+5. AI Security
+   -> Fixed Guard, Dynamic Guard, Cost Control, Privacy Output Guard로 위험과 비용을 통제
+
+6. Operation / Observability
+   -> reasonCode, Prometheus metric, dashboard로 문의 흐름과 보안 차단을 관찰
+
+## Detailed Multi-Layer PM Analysis
 
 This project is not just an implementation of a legal chatbot.
 It analyzes the legal intake problem from six perspectives: market, client, lawyer, technology, security, and operation.
