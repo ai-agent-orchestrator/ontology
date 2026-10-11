@@ -8,6 +8,12 @@ for healthcare, legal, cybersecurity, and AI governance
 I combine healthcare and legal domain experience with hands-on AI backend practice.
 My focus is building safe, observable, and compliant AI systems for high-stakes domains.
 
+Repository focus:
+
+```text
+Domain-driven AI Technical PM portfolio for healthcare, legal, cybersecurity, and AI governance.
+```
+
 ```diff
 Medical background
 + Legal dispute structuring experience
