@@ -16,6 +16,67 @@ Medical background
 = Legal/Medical AI Technical PM
 ```
 
+## Ontology Applied Architecture Saves Cost And Time
+
+The client selects inside an ontology structure.
+The chatbot organizes the selected values into a clear case summary.
+The lawyer receives structured intake information before consultation.
+The LLM handles shorter, cleaner, and safer inputs.
+
+```text
+Selective Legal Intake Form
+-> mini legal ontology
+-> structured case summary
+-> safer and cheaper AI processing
+```
+
+This is the core value of the architecture.
+The ontology is not presented as an abstract concept.
+It is applied as a product structure that reduces cost for the client, the lawyer, and the LLM system.
+
+```text
+Client
+-> less confusion and lower input burden
+
+Lawyer
+-> less repeated basic questioning and faster case understanding
+
+LLM system
+-> shorter input, clearer context, lower token cost, safer guardrail processing
+```
+
+Through hands-on experience and this development project, I designed an ontology structure that satisfies multi-dimensional market needs: client usability, lawyer workflow efficiency, AI security, observability, and cost control.
+
+## Mini Legal Ontology
+
+In this case, ontology is not a complex legal knowledge graph.
+It is a minimal classification structure that connects the client's selected values and keywords to case type, dispute area, required documents, and next organization direction.
+
+```text
+Client input
+-> selected values
+-> case type
+-> dispute area
+-> required documents
+-> next organization direction
+```
+
+Examples:
+
+```text
+Civil
+-> loan / contract / lease / damages
+
+Criminal
+-> fraud / assault / complaint / accused person
+
+Family
+-> divorce / child support / inheritance / parental rights
+
+Electronic litigation
+-> complaint / answer / correction order / service of documents
+```
+
 ## AI Technical PM Operating Principles
 
 This repository is not only a collection of ontology notes.
