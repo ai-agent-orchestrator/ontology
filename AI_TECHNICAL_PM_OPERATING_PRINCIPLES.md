@@ -2,102 +2,114 @@
 
 ## 1. Technical PM Positioning
 
-이번 프로젝트는 개발자 관점의 기능 구현만을 목표로 하지 않는다.
+This project is not designed only as a developer-oriented feature implementation task.
 
-기술 중심 PM으로서 시장 문제, 기술 구조, 보안, 비용, 운영, 검증, 산출물을 함께 설계하는 것을 목표로 한다.
+As a technical PM, the goal is to design market problems, technical structure, security, cost control, operation, validation, and project artifacts together.
 
-구체적으로는 다음 역량을 보여주는 것을 목표로 한다.
+The project is intended to demonstrate the following capabilities.
 
-1. 숨겨진 시장 needs와 기회 포착
+1. Discovering hidden market needs and opportunities
 
-   법률 intake 과정에서 고객이 겪는 정보 비용, 탐색 비용, 상담 전환 손실 문제를 발견하고, 이를 AI 서비스 기회로 정의한다.
+   The project identifies information cost, search cost, and consultation conversion loss in the legal intake process, and defines them as an AI service opportunity.
 
-2. Spring Boot 기반 AI 서비스 구현
+2. Implementing a Spring Boot-based AI service
 
-   Spring Boot 서버, JPA DB, React 화면, LLM API 연결을 통해 Legal Intake Form 기반 AI 챗봇과 Search Routing 흐름을 구현한다.
+   The project implements a Legal Intake Form-based AI chatbot and Search Routing flow through a Spring Boot server, JPA database, React screen, and LLM API integration.
 
-3. AI 보안 체계와 비용 통제 설계/구축
+3. Designing and building AI security and cost control
 
-   향후 AI 시장에서 중요한 화두가 될 보안과 비용 통제를 중심으로, 6가지 layer의 AI 보안 체계와 6가지 layer의 비용 통제 구조를 구현한다.
+   The project focuses on AI security and cost control, which will become increasingly important in the AI market. It aims to implement a 6-layer AI security structure and a 6-layer cost control structure.
 
-4. 운영 metric과 dashboard 설계
+4. Designing operational metrics and dashboards
 
-   운영 metric과 dashboard를 통해 운영자 편의성, 서비스 관측성, 마케팅 의사결정 가능성을 높인다.
+   The project uses operational metrics and dashboards to improve operator convenience, service observability, and marketing decision-making.
 
-5. Postman 검증과 리팩토링
+5. Verifying and refactoring through Postman
 
-   Postman 실험과 feedback을 바탕으로 정상 흐름, 실패 흐름, 차단 흐름을 검증하고 리팩토링한다.
+   The project verifies normal flows, failure flows, and blocking flows through Postman experiments, then uses feedback to refactor the system.
 
-6. AI 시대에 맞는 산출물 구축
+6. Building AI-era project artifacts
 
-   서버 구조와 운영 흐름을 설명 가능한 산출물로 만들고, 기술 PM 관점의 설계 역량을 드러낸다.
+   The project creates explainable artifacts for the server structure and operational flow, showing technical PM-level design capability.
 
-즉, 기술 PM은 아이디어만 내는 사람이 아니라 사용자 행동, 도메인 이벤트, 정책, 데이터, 코드, 운영 지표를 하나의 구조로 연결할 수 있어야 한다.
+In short, a technical PM is not only someone who proposes ideas.
+A technical PM should be able to connect user behavior, domain events, policies, data, code, and operational metrics into one structure.
 
 ## 2. Market-Driven Positioning
 
-이번 프로젝트는 단순히 기능을 구현하는 개발 과제가 아니라, 실제 시장성과 상업성을 고려한 AI 서비스 설계를 목표로 한다.
+This project is not just a feature implementation assignment.
+It aims to design an AI service with real market value and commercial positioning.
 
-법률 intake라는 직접 부딪힌 시장의 정보 비용 불합리성을 개선해, 고객의 법률 탐색 비용을 줄이고 변호사 사무소의 초기 상담 전환 흐름을 높이는 현실생활 솔루션을 적합한 AI 기술에 녹여내는 것을 목표로 한다.
+The project starts from a real legal intake problem: clients face unreasonable information cost, search cost, and early consultation conversion loss.
 
-## 3. AI 시대형 개발 방법론
+The goal is to reduce the client's legal search burden and improve the early consultation conversion flow of law offices by applying appropriate AI technology to a real-life market problem.
 
-AI가 개발 속도를 높이는 시대에는 사람이 모든 코드를 직접 작성하는 것보다 시장성 있는 것을 정의하고, 보안과 비용 절감을 초기부터 설계하며, 오류 대응과 사용자 경험 개선을 리팩토링 과정에 포함하고, 운영 편의성까지 고려한 feedback loop를 만드는 것이 중요하다.
+## 3. AI-Era Development Method
 
-이번 프로젝트는 수업 시간에 배운 TDD 개념을 AI 시대에 맞게 응용한 실전형 개발 방식으로 진행한다.
+In an era where AI accelerates development speed, the human role should not be limited to writing every line of code manually.
+
+It is more important to define a market-relevant problem, design security and cost reduction from the beginning, include error handling and user experience improvement in the refactoring process, and build a feedback loop that considers operational convenience.
+
+This project applies a practical development method based on the TDD concept learned in class, adapted to the AI era.
 
 ```text
-AI 모듈화 draft
--> Postman 검증
--> 실패 케이스 확인
--> feedback 기록
--> 리팩토링
--> 문서화
--> 시연
+AI modular draft
+-> Postman verification
+-> failure case check
+-> feedback record
+-> refactoring
+-> documentation
+-> demo
 ```
 
-이 방식은 개발을 줄이는 것이 아니라, AI가 개발 속도를 높이는 시대에 사람이 더 집중해야 할 시장성, 보안, 비용 통제, 운영 관측, 검증, 리팩토링에 가중치를 두는 방식이다.
+This method is not a way to reduce development effort.
+It is a way to put more weight on the areas where humans should focus in the AI era: market value, security, cost control, operational observability, validation, and refactoring.
 
 ## 4. Flexible Early, Strict Late
 
-이번 프로젝트는 처음부터 모든 구조를 완벽하게 확정한 뒤 개발하지 않는다.
+This project does not try to fix every structure perfectly before development begins.
 
-AI 서비스는 Spring Boot, JPA, LLM API, 보안 정책, 비용 통제, metric, 화면 흐름이 함께 연결되기 때문에 초기에는 구현하면서 시스템의 실제 흐름을 이해하고, 중반에는 Postman 실험과 Event Storming을 통해 구조를 다시 정리하며, 후반에는 확정된 범위를 set해 안정화와 산출물 정리, 검증, 리팩토링, 문서화, 시연 안정화에 집중한다.
+An AI service connects Spring Boot, JPA, LLM API, security policy, cost control, metrics, and screen flow. Because these elements interact with each other, the project starts by implementing while understanding the real system flow, then restructures the design through Postman experiments and Event Storming, and finally freezes the confirmed scope for stabilization, artifact organization, validation, refactoring, documentation, and demo preparation.
 
-운영 원칙은 다음과 같다.
+The operating principle is:
 
 ```text
-초반에는 구현하면서 이해한다.
-중반에는 실험하면서 구조화한다.
-후반에는 확정하고 흔들지 않는다.
+Early stage:
+Implement while understanding.
+
+Middle stage:
+Experiment and structure.
+
+Late stage:
+Freeze the scope and do not shake it.
 ```
 
 ## 5. Development Weight Balance
 
-이번 프로젝트에서는 개발 자체와 실제 운용, 비용 관리, 검증, 리팩토링에 같은 수준의 가중치를 둔다.
+This project gives similar weight to implementation, real operation, cost management, validation, and refactoring.
 
-기능이 동작하는 것만으로는 충분하지 않다.
+It is not enough for a feature to simply work.
 
 ```text
-정상 요청이 처리되는가?
-위험 요청이 차단되는가?
-비용 초과 요청이 LLM 호출 전에 막히는가?
-개인정보가 출력에서 마스킹되는가?
-외부 API 실패 시 fallback 되는가?
-reasonCode와 metric으로 설명 가능한가?
-오류가 났을 때 서버 어디를 봐야 하는가?
-대안 설계로 축소하거나 우회할 수 있는가?
+Can a normal request be processed?
+Can a risky request be blocked?
+Can an over-budget request be blocked before the LLM call?
+Is personal information masked in the output?
+Does the system fallback when an external API fails?
+Can the decision be explained through reasonCode and metrics?
+Where should the server be checked when an error happens?
+Can the design be reduced or rerouted when needed?
 ```
 
-이번 프로젝트에서 기능 완료의 기준은 코드 작성이 아니라 정상 흐름, 실패 흐름, 차단 이유, 운영 관측까지 확인되는 것이다.
+In this project, a feature is considered complete only when the normal flow, failure flow, blocking reason, and operational visibility are verified.
 
 ## 6. Top / Middle / Bottom Understanding Rule
 
-이번 프로젝트는 기능을 Top / Middle / Bottom 구조로 분리해 이해하고 실험하여, 서버 운용 감각과 전체 흐름을 파악하는 것을 목표로 한다.
+This project is understood and tested through Top / Middle / Bottom layers so that the server operation sense and full system flow can be clearly grasped.
 
 ### Top Layer
 
-Mermaid Flow Chart로 전체 서버와 AI 흐름을 이해한다.
+The Top Layer uses Mermaid flow charts to understand the full server and AI flow.
 
 ```text
 Client
@@ -118,7 +130,7 @@ Client
 
 ### Middle Layer
 
-DDD/Event Storming을 통해 사용자 행동이 어떤 Command와 Domain Event로 바뀌는지 정리한다.
+The Middle Layer uses DDD and Event Storming to organize how user behavior becomes commands and domain events.
 
 ```text
 Actor
@@ -132,109 +144,110 @@ Actor
 
 ### Bottom Layer
 
-Policy / Read Model / Code / Postman을 연결한다.
+The Bottom Layer connects Policy / Read Model / Code / Postman.
 
 ```text
 Policy
--> 필요한 데이터
--> 코드 위치
--> Postman 검증
--> reasonCode / metric 확인
+-> required data
+-> code location
+-> Postman verification
+-> reasonCode / metric check
 ```
 
-이 구조를 통해 전체 흐름, 도메인 이벤트, 정책, 데이터, 코드, 검증을 하나로 연결한다.
+Through this structure, the full flow, domain events, policies, data, code, and verification are connected into one system.
 
 ## 7. Event-to-Code Mapping Rule
 
-이번 프로젝트에서는 Event Storming 결과를 문서로만 두지 않는다.
+In this project, Event Storming results are not left only as documents.
 
-각 Event를 Policy, Read Model, Code, Postman 검증과 연결해 실제 서버에서 어떻게 동작하는지 확인한다.
+Each event is connected to policy, read model, code, and Postman verification so that the actual server behavior can be checked.
 
-이 표는 공부 자료이자 운영 디버깅 자료이며, 기술 PM으로서 사용자 행동과 기술 구조를 mapping하는 핵심 산출물이다.
+This mapping table is a study artifact, an operational debugging artifact, and a core artifact for mapping user behavior to technical structure as a technical PM.
 
-최종적으로는 다음 흐름을 설명할 수 있어야 한다.
+The final goal is to explain the following flow.
 
 ```text
-전체 흐름
--> 도메인 이벤트
--> 정책
--> 필요한 데이터
--> 코드 위치
--> Postman 검증
--> 리팩토링
+overall flow
+-> domain event
+-> policy
+-> required data
+-> code location
+-> Postman verification
+-> refactoring
 ```
 
-즉, 기술 PM으로서 사용자 행동에서 발생하는 이벤트를 기술 구조로 mapping하고, 그 구조가 실제 서버에서 어떻게 작동하는지 검증할 수 있는 능력을 기르는 것이 핵심 목표다.
+In other words, the core goal is to build the ability to map user behavior into technical structure and verify how that structure works in the real server.
 
 ## 8. Module Completion Rule
 
-기능 하나를 만들 때는 단순히 코드 구현에서 끝내지 않는다.
+A feature is not complete just because the code has been written.
 
-각 기능은 다음 단계를 하나의 묶음으로 완료한다.
+Each module should be completed as one bundle.
 
 ```text
-모듈별 설계
--> 모듈별 구현
--> Postman 정상 요청
--> Postman 실패/차단 요청
--> reasonCode 확인
--> 로그/metric 확인
--> feedback 기록
--> 산출물 반영
+module design
+-> module implementation
+-> Postman normal request
+-> Postman failure / blocked request
+-> reasonCode check
+-> log / metric check
+-> feedback record
+-> artifact update
 ```
 
-이 과정을 통과한 기능만 "구현 완료"로 본다.
+Only a module that passes this process is considered implemented.
 
 ## 9. Error Stop Flow Rule
 
-이번 프로젝트에서 중요한 것은 정상 동작뿐만 아니라 실패했을 때 후속 처리가 멈추는지 확인하는 것이다.
+In this project, it is important to verify not only normal behavior, but also whether the system stops the next step correctly when a failure occurs.
 
-대표 흐름은 다음과 같다.
+Representative stop flows are:
 
 ```text
-JWT 없음
--> Controller 진입 전 401
+No JWT
+-> 401 before Controller
 
-DTO Validation 실패
--> Service 진입 전 400
+DTO Validation failure
+-> 400 before Service
 
-Fixed Guard 차단
--> LLM 호출 없음
+Fixed Guard block
+-> no LLM call
 
-Cost Control 차단
--> LLM 호출 없음
--> actual token 증가 없음
+Cost Control block
+-> no LLM call
+-> no actual token increase
 
-Dynamic Guard 차단
--> 후속 요청 차단
+Dynamic Guard block
+-> subsequent requests blocked
 
-OpenAI API 실패
--> fallback 응답
--> 서버 장애로 번지지 않음
+OpenAI API failure
+-> fallback response
+-> no server-wide failure
 
 Privacy Output Guard
--> 원문 개인정보 노출 없음
+-> no raw personal information exposure
 ```
 
-이 과정을 통해 오류가 발생했을 때 서버의 어느 계층에서 문제가 발생했는지 파악하고, 필요하면 대안 설계를 적용할 수 있는 운영 능력을 기른다.
+Through this process, the project builds the operational ability to identify which server layer caused an error and apply an alternative design when needed.
 
 ## 10. Final Project Build-Up Rule
 
-이번 프로젝트는 단독으로 끝나는 프로젝트가 아니라, 추후 2개월짜리 final project인 AI orchestration 프로젝트로 이어지는 빌드업이다.
+This project is not an isolated project.
+It is a build-up toward the later two-month final AI orchestration project.
 
-따라서 이번 프로젝트에서는 무리하게 RAG, Python action, 고급 multi-agent를 넣기보다 다음 기초 체력을 단단히 만든다.
+Therefore, this project does not force advanced RAG, Python actions, or complex multi-agent architecture too early. Instead, it builds the following foundations.
 
 ```text
-Spring Boot 기반 AI 서버 흐름
-JPA DB 설계
-LLM API 연결
-AI 보안 정책
+Spring Boot-based AI server flow
+JPA DB design
+LLM API integration
+AI security policy
 Cost Control
 Privacy Output Guard
-Prometheus/Grafana 관측
-Postman 검증
-DDD/Event Storming
+Prometheus / Grafana observability
+Postman verification
+DDD / Event Storming
 Policy / Read Model / Code mapping
 ```
 
-이 기반 위에 12월 final project에서 Python, RAG, Vector DB, LangChain/LangGraph, NeMo action, 의료/법률 AI 보안을 확장한다.
+Based on this foundation, the final project can later expand into Python, RAG, Vector DB, LangChain / LangGraph, NeMo actions, and medical / legal AI security.

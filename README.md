@@ -80,7 +80,8 @@ Electronic litigation
 ## AI Technical PM Operating Principles
 
 This repository uses the following 10 operating rules as my AI Technical PM working method.
-The full Korean version is kept in [AI Technical PM Operating Principles](AI_TECHNICAL_PM_OPERATING_PRINCIPLES.md).
+The full English version is kept in [AI Technical PM Operating Principles](AI_TECHNICAL_PM_OPERATING_PRINCIPLES.md).
+A Korean version is also available in [AI Technical PM Operating Principles KR](AI_TECHNICAL_PM_OPERATING_PRINCIPLES_KR.md).
 
 ```text
 1. Technical PM Positioning
@@ -100,7 +101,8 @@ A technical PM should connect user behavior, domain events, policies, data, code
 
 ## Documents
 
-- [AI Technical PM Operating Principles](AI_TECHNICAL_PM_OPERATING_PRINCIPLES.md)
+- [AI Technical PM Operating Principles English](AI_TECHNICAL_PM_OPERATING_PRINCIPLES.md)
+- [AI Technical PM Operating Principles Korean](AI_TECHNICAL_PM_OPERATING_PRINCIPLES_KR.md)
 - [Problem-Solving Ontology English Version](docs/PROBLEM_SOLVING_ONTOLOGY_EN.md)
 - [현실 문제 해결 온톨로지](docs/PROBLEM_SOLVING_ONTOLOGY.md)
 - [선택형 Legal Intake와 미니 법률 온톨로지](docs/SELECTIVE_LEGAL_INTAKE_MINI_ONTOLOGY.md)
