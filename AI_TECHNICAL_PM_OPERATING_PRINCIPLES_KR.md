@@ -8,29 +8,14 @@
 
 구체적으로는 다음 역량을 보여주는 것을 목표로 한다.
 
-1. 숨겨진 시장 needs와 기회 포착
-
-   법률 intake 과정에서 고객이 겪는 정보 비용, 탐색 비용, 상담 전환 손실 문제를 발견하고, 이를 AI 서비스 기회로 정의한다.
-
-2. Spring Boot 기반 AI 서비스 구현
-
-   Spring Boot 서버, JPA DB, React 화면, LLM API 연결을 통해 Legal Intake Form 기반 AI 챗봇과 Search Routing 흐름을 구현한다.
-
-3. AI 보안 체계와 비용 통제 설계/구축
-
-   향후 AI 시장에서 중요한 화두가 될 보안과 비용 통제를 중심으로, 6가지 layer의 AI 보안 체계와 6가지 layer의 비용 통제 구조를 구현한다.
-
-4. 운영 metric과 dashboard 설계
-
-   운영 metric과 dashboard를 통해 운영자 편의성, 서비스 관측성, 마케팅 의사결정 가능성을 높인다.
-
-5. Postman 검증과 리팩토링
-
-   Postman 실험과 feedback을 바탕으로 정상 흐름, 실패 흐름, 차단 흐름을 검증하고 리팩토링한다.
-
-6. AI 시대에 맞는 산출물 구축
-
-   서버 구조와 운영 흐름을 설명 가능한 산출물로 만들고, 기술 PM 관점의 설계 역량을 드러낸다.
+| Capability Box |
+| --- |
+| **숨겨진 시장 needs와 기회 포착**<br>법률 intake 과정에서 고객이 겪는 정보 비용, 탐색 비용, 상담 전환 손실 문제를 발견하고, 이를 AI 서비스 기회로 정의한다. |
+| **Spring Boot 기반 AI 서비스 구현**<br>Spring Boot 서버, JPA DB, React 화면, LLM API 연결을 통해 Legal Intake Form 기반 AI 챗봇과 Search Routing 흐름을 구현한다. |
+| **AI 보안 체계와 비용 통제 설계/구축**<br>향후 AI 시장에서 중요한 화두가 될 보안과 비용 통제를 중심으로, 6가지 layer의 AI 보안 체계와 6가지 layer의 비용 통제 구조를 구현한다. |
+| **운영 metric과 dashboard 설계**<br>운영 metric과 dashboard를 통해 운영자 편의성, 서비스 관측성, 마케팅 의사결정 가능성을 높인다. |
+| **Postman 검증과 리팩토링**<br>Postman 실험과 feedback을 바탕으로 정상 흐름, 실패 흐름, 차단 흐름을 검증하고 리팩토링한다. |
+| **AI 시대에 맞는 산출물 구축**<br>서버 구조와 운영 흐름을 설명 가능한 산출물로 만들고, 기술 PM 관점의 설계 역량을 드러낸다. |
 
 즉, 기술 PM은 아이디어만 내는 사람이 아니라 사용자 행동, 도메인 이벤트, 정책, 데이터, 코드, 운영 지표를 하나의 구조로 연결할 수 있어야 한다.
 

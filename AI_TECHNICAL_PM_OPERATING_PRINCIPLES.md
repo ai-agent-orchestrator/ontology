@@ -8,29 +8,14 @@ As a technical PM, the goal is to design market problems, technical structure, s
 
 The project is intended to demonstrate the following capabilities.
 
-1. Discovering hidden market needs and opportunities
-
-   The project identifies information cost, search cost, and consultation conversion loss in the legal intake process, and defines them as an AI service opportunity.
-
-2. Implementing a Spring Boot-based AI service
-
-   The project implements a Legal Intake Form-based AI chatbot and Search Routing flow through a Spring Boot server, JPA database, React screen, and LLM API integration.
-
-3. Designing and building AI security and cost control
-
-   The project focuses on AI security and cost control, which will become increasingly important in the AI market. It aims to implement a 6-layer AI security structure and a 6-layer cost control structure.
-
-4. Designing operational metrics and dashboards
-
-   The project uses operational metrics and dashboards to improve operator convenience, service observability, and marketing decision-making.
-
-5. Verifying and refactoring through Postman
-
-   The project verifies normal flows, failure flows, and blocking flows through Postman experiments, then uses feedback to refactor the system.
-
-6. Building AI-era project artifacts
-
-   The project creates explainable artifacts for the server structure and operational flow, showing technical PM-level design capability.
+| Capability Box |
+| --- |
+| **Discovering hidden market needs and opportunities**<br>The project identifies information cost, search cost, and consultation conversion loss in the legal intake process, and defines them as an AI service opportunity. |
+| **Implementing a Spring Boot-based AI service**<br>The project implements a Legal Intake Form-based AI chatbot and Search Routing flow through a Spring Boot server, JPA database, React screen, and LLM API integration. |
+| **Designing and building AI security and cost control**<br>The project focuses on AI security and cost control, which will become increasingly important in the AI market. It aims to implement a 6-layer AI security structure and a 6-layer cost control structure. |
+| **Designing operational metrics and dashboards**<br>The project uses operational metrics and dashboards to improve operator convenience, service observability, and marketing decision-making. |
+| **Verifying and refactoring through Postman**<br>The project verifies normal flows, failure flows, and blocking flows through Postman experiments, then uses feedback to refactor the system. |
+| **Building AI-era project artifacts**<br>The project creates explainable artifacts for the server structure and operational flow, showing technical PM-level design capability. |
 
 In short, a technical PM is not only someone who proposes ideas.
 A technical PM should be able to connect user behavior, domain events, policies, data, code, and operational metrics into one structure.
